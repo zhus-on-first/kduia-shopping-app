@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+
 import { AppProvider } from './context/AppContext';
 import CartValue from './components/CartValue';
 import ExpenseList from './components/ExpenseList';
@@ -34,5 +35,6 @@ const App = () => {
           </div>
       </AppProvider>
   );
-
+  };
+  
 export default App;
